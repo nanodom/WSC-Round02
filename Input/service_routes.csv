@@ -1,0 +1,10 @@
+RouteId,RouteName,StartDayOfWeek
+S1,Asia-Europe-NorthEurope,0.35
+S2,Intra-EastAsia,1.10
+S3,Mekong-Regional-Feeder,2.05
+S4,Transpacific-South,2.80
+S5,Asia-US-East,3.55
+S6,Transatlantic-Caribbean,4.30
+S7,IndianOcean-Gulf-EastMed,5.05
+S8,Indonesia-Regional-Feeder,5.80
+S9,Transpacific-North,6.55

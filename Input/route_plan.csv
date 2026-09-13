@@ -1,0 +1,10 @@
+RouteId,VesselClassName,VesselCount
+S1,ULCV,8
+S2,Post-Panamax,2
+S3,Feedermax,2
+S4,Neo-Panamax,4
+S5,Neo-Panamax,9
+S6,Post-Panamax,5
+S7,Post-Panamax,5
+S8,Feeder,1
+S9,Neo-Panamax,5
