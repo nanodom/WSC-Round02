@@ -4,18 +4,21 @@ from config.simulation_config import WARM_UP_DAYS
 from maritime_data_context import DisruptionPlan
 from .baseline_stable_scenario import BaselineStableScenario
 
-
 CONGESTED_LEGS = [
-    # Format: (departure port, arrival port, start day, duration days, multiplier)
-    ("Colombo", "New Jersey", 40.0, 60.0, 5.0),
-    ("Shanghai", "Kaohsiung", 140.0, 60.0, 5.0),
-    ("Qingdao", "Busan", 215.0, 25.0, 5.0),
+    # Formato: (puerto de salida, puerto de llegada, día de inicio, duración en días, multiplicador)
+    ("Colombo", "New Jersey", 30.0, 90.0, 8.0),   
+    ("Shanghai", "Shenzhen", 120.0, 75.0, 6.0),  
+    ("Qingdao", "Shanghai", 200.0, 40.0, 6.0),   
+    ("Singapore", "Colombo", 150.0, 50.0, 5.0),  # Dirección correcta (Singapore -> Colombo)
+    ("Colombo", "Singapore", 220.0, 45.0, 5.0),  # Dirección inversa si aplica, o usa un tramo existente
 ]
 
-
 CLOSED_PORTS = [
-    ("Piraeus", 260.0, 14.0),
-    ("Tianjin", 320.0, 7.0),
+    # Formato: (nombre del puerto, día de inicio, duración en días)
+    ("Piraeus", 250.0, 21.0),    # Puerto válido con cierre prolongado
+    ("Tianjin", 310.0, 14.0),    # Cierre temporal en puerto norteasiático
+    ("Shanghai", 180.0, 10.0),   # Puerto válido con gran volumen de carga
+    ("Rotterdam", 280.0, 7.0),   # Puerto europeo clave de destino
 ]
 
 

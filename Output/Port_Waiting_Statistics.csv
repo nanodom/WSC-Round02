@@ -1,22 +1,22 @@
 Port,Origin Waiting TEU,Transshipment Waiting TEU,Total Waiting TEU,Vessels Waiting
-Busan,397,7,403,0.00
-Cartagena,107,0,107,0.00
-Colombo,526,150,676,0.00
-Hamburg,344,0,344,0.00
-Ho Chi Minh City,58,0,58,0.02
-Jakarta,44,0,44,0.00
-Jebel Ali,412,0,412,0.00
-Kaohsiung,182,278,460,0.00
-Laem Chabang,58,0,58,0.01
-Los Angeles,280,7,287,0.00
-New Jersey,508,286,794,0.00
-Piraeus,291,259,550,0.08
-Qingdao,205,1,206,0.00
-Rotterdam,468,1,469,0.00
-Shanghai,689,"1,375","2,064",0.00
-Shenzhen,636,256,892,0.00
-Singapore,557,731,"1,288",0.00
-Tanger Med,260,134,394,0.00
-Tianjin,151,0,151,0.07
-Xiamen,237,0,237,0.02
-TOTAL,"6,408","3,486","9,894",0.20
+Busan,771,22,793,0.00
+Cartagena,243,0,243,0.00
+Colombo,"1,142",303,"1,445",0.00
+Hamburg,648,0,648,0.00
+Ho Chi Minh City,140,0,140,0.02
+Jakarta,147,0,147,0.00
+Jebel Ali,988,0,988,0.00
+Kaohsiung,365,457,822,0.00
+Laem Chabang,147,0,147,0.01
+Los Angeles,585,170,755,0.00
+New Jersey,"1,692",908,"2,600",0.00
+Piraeus,539,423,963,0.12
+Qingdao,447,1,448,0.00
+Rotterdam,901,2,903,0.06
+Shanghai,"1,216","2,246","3,462",0.05
+Shenzhen,"1,400",890,"2,291",0.00
+Singapore,"1,086","1,235","2,321",0.00
+Tanger Med,451,270,722,0.00
+Tianjin,326,8,334,0.14
+Xiamen,538,0,538,0.02
+TOTAL,"13,771","6,936","20,707",0.43

@@ -1,0 +1,758 @@
+Simulation warm-up started: 140 days
+Simulation warm-up completed. Measurement starts at simulation day 140.
+
+Simulation Progress: Day 5 / 360
+Simulation Clock Time: 0001-05-26 00:00:00
+
+
+============================================================
+Shipment Waiting for Loading Statistics
+============================================================
+
+TEUs by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             5             26            17            4             4             34            124           3             47            32            14            25            27            67            27            32            17            14            17            
+Cartagena         1             -             4             8             0             0             5             2             1             4             25            6             3             10            9             4             5             14            1             2             
+Colombo           13            2             -             17            4             7             29            7             11            6             11            23            10            49            33            28            29            15            1             6             
+Hamburg           6             4             10            -             2             0             12            5             3             7             11            9             3             27            17            9             8             20            2             0             
+Ho Chi Minh City  0             0             3             3             -             3             5             0             4             1             1             0             2             4             5             3             15            1             0             1             
+Jakarta           0             0             2             1             2             -             8             0             2             5             2             1             0             2             6             6             4             1             0             1             
+Jebel Ali         15            3             58            26            5             6             -             12            6             5             13            21            5             24            16            19            23            26            3             16            
+Kaohsiung         27            2             4             11            3             3             9             -             2             67            9             3             11            10            17            8             10            6             7             4             
+Laem Chabang      3             1             4             2             1             3             9             0             -             4             3             3             2             5             8             8             9             1             1             2             
+Los Angeles       11            3             16            6             1             3             13            11            4             -             27            5             10            8             47            31            14            5             3             9             
+New Jersey        7             27            11            30            2             3             15            6             0             21            -             8             7             31            18            11            4             21            1             10            
+Piraeus           6             4             20            7             2             1             41            3             1             6             7             -             7             19            26            21            11            15            4             2             
+Qingdao           8             2             5             8             2             2             10            11            3             41            12            5             -             8             28            9             11            5             5             1             
+Rotterdam         7             10            19            18            4             5             33            5             4             6             25            12            6             -             24            20            17            28            4             4             
+Shanghai          42            6             8             9             1             4             14            26            1             97            18            8             31            14            -             8             12            6             18            6             
+Shenzhen          28            9             17            27            7             8             36            22            4             29            26            18            8             34            20            -             27            8             6             3             
+Singapore         19            2             57            30            5             7             53            12            6             25            9             26            10            55            56            44            -             19            6             14            
+Tanger Med        2             13            7             21            3             1             10            2             2             2             11            5             2             17            8             9             4             -             3             2             
+Tianjin           9             2             2             4             2             4             9             6             1             18            6             4             7             14            14            2             9             4             -             1             
+Xiamen            12            4             19            14            2             2             14            13            1             17            15            9             3             15            8             44            14            5             1             -             
+
+Port-Level Shipment Waiting and Vessel Queue Statistics
+
+Port                       Origin Waiting TEU   Transshipment Waiting TEU   Total Waiting TEU   Vessels Waiting
+---------------------------------------------------------------------------------------------------------------
+Busan                                     536                          13                 549              0.00
+Cartagena                                 105                           0                 105              0.00
+Colombo                                   299                          28                 328              0.00
+Hamburg                                   155                           0                 155              0.00
+Ho Chi Minh City                           51                           0                  51              0.06
+Jakarta                                    43                           0                  43              0.00
+Jebel Ali                                 302                           0                 302              0.00
+Kaohsiung                                 213                         170                 383              0.00
+Laem Chabang                               69                           0                  69              0.01
+Los Angeles                               227                           0                 227              0.00
+New Jersey                                233                          86                 319              0.00
+Piraeus                                   204                         203                 407              0.00
+Qingdao                                   176                           0                 176              0.00
+Rotterdam                                 250                           0                 250              0.00
+Shanghai                                  329                         993               1,322              0.00
+Shenzhen                                  336                         106                 442              0.00
+Singapore                                 456                         439                 895              0.00
+Tanger Med                                126                          46                 172              0.00
+Tianjin                                   118                           0                 118              0.00
+Xiamen                                    211                           0                 211              0.04
+---------------------------------------------------------------------------------------------------------------
+TOTAL                                   4,438                       2,085               6,523              0.11
+
+
+
+============================================================
+Shipment Being Transported Statistics
+============================================================
+
+Average TEUs in Transition by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             30            79            121           4             18            154           134           13            165           184           84            0             147           10            55            83            70            0             7             
+Cartagena         18            -             52            46            6             15            37            17            11            88            37            28            30            40            106           68            29            49            21            17            
+Colombo           62            50            -             89            6             7             77            42            15            39            79            24            57            112           60            80            48            49            20            24            
+Hamburg           73            25            90            -             10            12            139           49            13            79            79            36            67            6             153           148           44            23            30            51            
+Ho Chi Minh City  9             17            13            22            -             7             52            14            3             47            27            15            14            38            36            59            12            27            10            10            
+Jakarta           20            13            27            40            7             -             49            7             9             64            46            35            13            63            25            41            4             16            9             12            
+Jebel Ali         99            36            60            87            15            16            -             73            16            111           71            31            51            145           67            105           55            135           22            55            
+Kaohsiung         21            13            26            62            5             11            46            -             14            130           59            34            7             71            15            19            25            27            5             5             
+Laem Chabang      15            8             16            35            2             7             39            10            -             51            28            23            9             47            26            37            6             22            17            12            
+Los Angeles       77            82            56            71            21            28            96            60            15            -             267           54            77            124           163           148           65            36            22            54            
+New Jersey        83            45            94            45            6             9             75            53            8             325           -             49            69            53            170           128           34            18            21            55            
+Piraeus           37            30            35            15            4             6             40            26            8             50            64            -             32            34            90            93            34            25            21            27            
+Qingdao           3             28            45            77            10            11            75            9             10            162           94            57            -             102           6             20            41            48            16            0             
+Rotterdam         86            58            116           2             18            27            199           60            15            91            128           39            72            -             169           243           76            26            35            78            
+Shanghai          39            71            82            172           16            26            173           19            24            247           222           139           26            263           -             23            129           107           16            7             
+Shenzhen          34            57            51            201           24            23            217           10            18            140           316           95            10            320           25            -             78            73            8             6             
+Singapore         35            53            10            61            4             7             103           36            9             162           99            37            65            107           26            63            -             49            11            30            
+Tanger Med        41            31            54            7             14            17            91            25            10            37            21            21            31            5             77            101           73            -             19            23            
+Tianjin           4             14            32            69            5             15            84            13            5             66            76            43            0             90            5             14            42            31            -             0             
+Xiamen            19            25            51            107           6             7             114           12            10            101           135           54            4             138           18            21            60            47            1             -             
+
+Completed TEUs by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             18            0             0             7             0             59            147           5             106           0             20            0             0             87            111           40            18            0             21            
+Cartagena         0             -             10            24            4             4             15            0             1             21            0             26            0             2             14            15            0             0             0             0             
+Colombo           0             19            -             16            5             4             94            32            6             9             22            37            0             0             26            100           67            26            0             25            
+Hamburg           0             14            36            -             2             4             65            20            2             15            33            50            0             39            25            77            7             37            0             11            
+Ho Chi Minh City  0             7             0             5             -             7             30            5             7             10            1             7             0             0             17            51            14            13            0             11            
+Jakarta           0             7             0             7             8             -             18            4             2             21            8             13            0             0             16            49            16            2             0             6             
+Jebel Ali         0             0             69            37            14            6             -             47            11            23            14            0             0             0             32            89            41            48            0             19            
+Kaohsiung         0             5             0             0             4             0             20            -             6             83            0             15            0             0             24            30            10            1             0             7             
+Laem Chabang      0             9             0             4             5             6             23            8             -             6             3             14            0             0             9             34            15            9             0             6             
+Los Angeles       47            25            0             0             4             0             16            40            2             -             44            11            19            0             101           77            23            4             4             4             
+New Jersey        0             75            38            70            5             4             31            8             3             34            -             48            0             4             50            33            0             0             0             7             
+Piraeus           0             0             27            22            3             10            61            21            2             8             28            -             0             0             16            53            14            37            0             21            
+Qingdao           14            15            0             0             6             0             24            10            9             100           0             13            -             0             48            35            26            13            0             0             
+Rotterdam         0             26            55            23            2             5             99            23            1             17            79            43            0             -             30            109           20            53            0             23            
+Shanghai          0             14            0             43            22            0             82            50            19            132           28            31            0             0             -             73            118           24            0             25            
+Shenzhen          0             29            0             41            20            0             124           44            24            53            81            42            0             0             61            -             100           20            0             8             
+Singapore         0             23            0             26            22            24            94            39            12            66            19            18            0             0             50            138           -             21            0             48            
+Tanger Med        0             21            25            16            2             7             34            11            1             6             17            39            0             0             27            49            34            -             0             12            
+Tianjin           12            7             0             0             5             0             23            14            2             46            0             17            0             0             41            28            28            9             -             1             
+Xiamen            0             13            0             0             5             0             50            33            9             32            0             32            0             0             19            111           37            14            0             -             
+
+
+============================================================
+Service Route Capacity and Utilization Statistics
+============================================================
+Route     Name                                Avg Capacity TEU     Avg Carried TEU    Utilization
+-------------------------------------------------------------------------------------------------
+S1        Asia-Europe-NorthEurope                      133,623               8,183          6.12%
+S2        Intra-EastAsia                                13,249                 387          2.92%
+S3        Mekong-Regional-Feeder                         4,727                 138          2.92%
+S4        Transpacific-South                            49,423               1,784          3.61%
+S5        Asia-US-East                                 114,302               2,824          2.47%
+S6        Transatlantic-Caribbean                       37,890                 902          2.38%
+S7        IndianOcean-Gulf-EastMed                      38,258               1,231          3.22%
+S8        Indonesia-Regional-Feeder                      1,556                  47          3.02%
+S9        Transpacific-North                            62,814                 554          0.88%
+-------------------------------------------------------------------------------------------------
+TOTAL                                                  455,842              16,049          3.52%
+
+
+============================================================
+Vessel Statistics
+============================================================
+Metric                                            Average Count
+---------------------------------------------------------------
+Average vessels sailing                                   38.58
+Average vessels waiting for berth at port                  0.11
+Average vessels being served at berth                      2.31
+---------------------------------------------------------------
+TOTAL average active/port vessels                         41.00
+
+
+Period Result Output: Period 1 (Days 1-5)
+Output Simulation Day: 5
+Simulation Running Time: 00:07:00
+
+Simulation Progress: Day 10 / 360
+Simulation Clock Time: 0001-05-31 00:00:00
+
+
+============================================================
+Shipment Waiting for Loading Statistics
+============================================================
+
+TEUs by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             4             20            12            2             3             28            81            2             57            24            11            17            22            50            22            23            12            11            11            
+Cartagena         1             -             4             8             0             0             5             2             1             3             25            9             2             10            7             4             5             11            1             4             
+Colombo           22            3             -             20            6             12            36            11            15            8             8             22            12            48            51            41            48            14            4             11            
+Hamburg           6             8             11            -             2             1             16            5             2             8             18            13            4             31            18            13            8             23            2             1             
+Ho Chi Minh City  0             0             3             3             -             3             5             0             3             2             1             1             1             4             8             4             11            1             0             2             
+Jakarta           0             0             3             1             1             -             4             0             1             3             3             2             1             3             4             6             3             1             0             1             
+Jebel Ali         11            2             49            22            5             7             -             8             5             7             11            17            8             26            19            25            25            28            3             11            
+Kaohsiung         28            2             4             9             2             3             8             -             2             50            12            2             11            10            20            7             8             6             9             3             
+Laem Chabang      2             1             4             3             1             2             6             0             -             4             1             2             1             3             6             6             7             1             1             1             
+Los Angeles       15            3             10            4             1             2             10            7             2             -             21            4             21            5             33            18            9             4             6             7             
+New Jersey        9             36            11            31            3             3             14            5             1             22            -             10            7             28            22            15            6             16            2             8             
+Piraeus           6             4             16            7             1             1             28            3             1             4             9             -             6             19            19            14            7             16            2             3             
+Qingdao           10            2             6             8             2             3             12            11            3             43            15            7             -             11            29            8             12            4             6             1             
+Rotterdam         9             18            27            17            4             7             46            6             5             7             50            15            8             -             32            26            21            38            5             4             
+Shanghai          44            9             21            21            4             9             27            24            6             84            33            15            30            28            -             22            27            15            19            8             
+Shenzhen          34            7             26            23            7             11            34            25            7             35            27            25            10            37            25            -             29            12            8             4             
+Singapore         13            3             36            18            4             8             52            8             6             18            9             18            9             31            47            33            -             11            5             12            
+Tanger Med        6             10            14            16            4             2             15            4             3             3             9             10            2             18            12            14            8             -             3             6             
+Tianjin           9             2             3             4             1             3             10            6             1             20            6             4             9             12            16            3             11            4             -             1             
+Xiamen            16            4             19            21            2             2             16            14            2             18            19            12            4             18            11            51            19            7             1             -             
+
+Port-Level Shipment Waiting and Vessel Queue Statistics
+
+Port                       Origin Waiting TEU   Transshipment Waiting TEU   Total Waiting TEU   Vessels Waiting
+---------------------------------------------------------------------------------------------------------------
+Busan                                     412                           7                 419              0.00
+Cartagena                                 104                           0                 104              0.00
+Colombo                                   393                          75                 468              0.00
+Hamburg                                   192                           0                 192              0.00
+Ho Chi Minh City                           53                           0                  53              0.04
+Jakarta                                    38                           0                  38              0.00
+Jebel Ali                                 290                           0                 290              0.00
+Kaohsiung                                 195                         481                 676              0.00
+Laem Chabang                               53                           0                  53              0.01
+Los Angeles                               182                           0                 182              0.00
+New Jersey                                250                         105                 355              0.00
+Piraeus                                   168                         184                 352              0.00
+Qingdao                                   192                           0                 192              0.00
+Rotterdam                                 345                           0                 345              0.00
+Shanghai                                  447                         886               1,333              0.00
+Shenzhen                                  387                          53                 440              0.00
+Singapore                                 341                         650                 991              0.00
+Tanger Med                                160                          48                 209              0.00
+Tianjin                                   126                           0                 126              0.01
+Xiamen                                    255                           0                 255              0.04
+---------------------------------------------------------------------------------------------------------------
+TOTAL                                   4,584                       2,489               7,073              0.09
+
+
+
+============================================================
+Shipment Being Transported Statistics
+============================================================
+
+Average TEUs in Transition by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             30            85            126           7             19            156           153           14            177           209           82            9             150           42            51            73            73            3             15            
+Cartagena         19            -             52            48            6             14            38            19            11            76            35            28            32            44            109           65            32            48            22            20            
+Colombo           66            48            -             91            6             6             65            30            15            36            80            26            61            114           63            71            24            44            20            21            
+Hamburg           76            23            92            -             11            13            129           43            15            77            75            29            70            9             160           145           45            23            32            51            
+Ho Chi Minh City  9             16            15            25            -             9             48            12            2             45            29            14            15            39            42            51            15            22            10            10            
+Jakarta           22            11            25            39            7             -             52            7             8             61            48            34            15            66            32            42            4             16            10            13            
+Jebel Ali         108           38            59            92            16            18            -             60            19            107           75            33            55            149           72            95            57            134           24            61            
+Kaohsiung         13            13            24            66            7             13            43            -             14            126           64            31            8             70            19            16            22            30            5             5             
+Laem Chabang      17            8             19            36            2             7             40            8             -             54            29            22            11            47            35            40            7             19            18            12            
+Los Angeles       73            80            65            74            22            26            100           51            18            -             273           54            77            124           178           164           67            39            22            62            
+New Jersey        88            37            91            59            7             10            75            53            8             309           -             47            75            67            166           123           33            24            22            60            
+Piraeus           43            31            46            16            5             6             48            20            9             50            62            -             37            33            106           95            35            21            23            24            
+Qingdao           4             27            44            78            10            11            73            12            10            172           105           58            -             99            11            16            31            45            14            0             
+Rotterdam         91            55            124           4             20            27            192           53            18            87            115           29            77            -             180           232           75            28            38            75            
+Shanghai          62            71            75            168           15            23            147           9             22            228           220           128           41            251           -             15            74            101           26            7             
+Shenzhen          20            57            51            207           25            22            191           5             17            131           311           96            9             315           23            -             43            70            7             5             
+Singapore         48            51            35            79            4             10            101           26            8             152           99            49            72            132           58            75            -             54            16            31            
+Tanger Med        42            35            55            13            15            16            85            22            11            36            24            13            32            9             77            95            58            -             21            21            
+Tianjin           5             14            31            67            6             16            83            11            5             67            80            42            2             89            8             10            33            31            -             0             
+Xiamen            13            24            54            109           6             7             102           8             9             95            142           53            4             134           19            17            39            44            1             -             
+
+Completed TEUs by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             18            79            32            11            18            59            147           17            207           0             55            41            36            205           111           86            18            18            46            
+Cartagena         0             -             10            57            4             7             15            0             3             43            59            29            0             29            14            15            4             27            0             2             
+Colombo           0             20            -             55            13            13            94            32            24            9             22            52            0             61            93            100           67            26            0             34            
+Hamburg           0             24            36            -             2             6             65            20            6             15            33            67            0             105           75            77            7             37            0             18            
+Ho Chi Minh City  0             7             12            11            -             21            30            5             19            10            1             11            0             13            45            51            42            13            0             12            
+Jakarta           0             8             32            16            16            -             18            4             15            21            8             28            0             11            39            49            30            2             0             9             
+Jebel Ali         0             5             206           80            24            16            -             47            19            23            14            24            0             46            72            89            41            48            0             40            
+Kaohsiung         59            5             24            13            7             8             20            -             17            120           0             27            19            21            59            30            20            1             13            13            
+Laem Chabang      0             9             17            8             7             20            23            8             -             6             3             24            0             11            34            34            30            9             0             8             
+Los Angeles       91            25            23            9             12            14            16            40            5             -             44            23            63            26            101           77            23            4             19            31            
+New Jersey        0             127           38            107           7             5             31            8             6             103           -             53            0             56            50            33            10            18            0             21            
+Piraeus           0             13            27            39            5             12            61            21            7             8             28            -             0             42            65            53            14            37            0             30            
+Qingdao           34            15            45            17            16            11            24            10            17            190           0             25            -             36            124           35            43            13            22            2             
+Rotterdam         0             44            55            59            7             19            99            23            5             17            79            69            0             -             83            109           20            53            0             39            
+Shanghai          0             14            81            84            37            29            82            50            38            169           28            87            0             70            -             73            148           24            0             45            
+Shenzhen          62            30            72            96            55            35            124           44            41            53            81            76            18            96            93            -             123           20            14            13            
+Singapore         0             24            101           52            33            79            94            39            35            66            19            46            0             51            141           138           -             21            0             60            
+Tanger Med        0             34            25            53            5             14            34            11            4             6             17            54            0             34            43            49            34            -             0             16            
+Tianjin           29            7             32            24            10            15            23            14            6             81            0             28            21            28            72            28            44            9             -             2             
+Xiamen            27            13            64            18            13            9             50            33            18            32            0             44            6             41            42            111           74            14            2             -             
+
+
+============================================================
+Service Route Capacity and Utilization Statistics
+============================================================
+Route     Name                                Avg Capacity TEU     Avg Carried TEU    Utilization
+-------------------------------------------------------------------------------------------------
+S1        Asia-Europe-NorthEurope                      135,086               8,001          5.92%
+S2        Intra-EastAsia                                12,899                 526          4.08%
+S3        Mekong-Regional-Feeder                         4,780                 181          3.79%
+S4        Transpacific-South                            50,493               1,766          3.50%
+S5        Asia-US-East                                 115,311               2,879          2.50%
+S6        Transatlantic-Caribbean                       38,206                 909          2.38%
+S7        IndianOcean-Gulf-EastMed                      38,600               1,105          2.86%
+S8        Indonesia-Regional-Feeder                      1,523                  63          4.12%
+S9        Transpacific-North                            62,960                 570          0.90%
+-------------------------------------------------------------------------------------------------
+TOTAL                                                  459,858              16,000          3.48%
+
+
+============================================================
+Vessel Statistics
+============================================================
+Metric                                            Average Count
+---------------------------------------------------------------
+Average vessels sailing                                   38.87
+Average vessels waiting for berth at port                  0.09
+Average vessels being served at berth                      2.04
+---------------------------------------------------------------
+TOTAL average active/port vessels                         41.00
+
+
+Period Result Output: Period 2 (Days 6-10)
+Output Simulation Day: 10
+Simulation Running Time: 00:07:14
+
+Simulation Progress: Day 15 / 360
+Simulation Clock Time: 0001-06-05 00:00:00
+
+
+============================================================
+Shipment Waiting for Loading Statistics
+============================================================
+
+TEUs by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             3             21            14            2             3             32            73            2             48            23            12            17            23            49            25            22            11            12            9             
+Cartagena         1             -             5             10            0             1             6             2             1             2             26            10            2             10            7             6             7             12            1             3             
+Colombo           18            4             -             17            5             11            46            11            13            8             8             19            11            37            49            37            46            14            4             11            
+Hamburg           6             8             14            -             2             2             21            4             2             7             20            14            4             32            18            16            8             25            2             3             
+Ho Chi Minh City  1             0             4             3             -             4             5             1             3             3             1             1             1             4             8             6             11            1             0             2             
+Jakarta           1             0             3             1             1             -             4             0             1             3             2             2             1             3             5             6             3             1             0             1             
+Jebel Ali         13            3             55            20            6             8             -             8             5             9             12            16            10            26            22            29            29            25            3             11            
+Kaohsiung         26            2             4             7             2             2             7             -             2             46            10            3             11            9             20            6             7             5             8             3             
+Laem Chabang      1             1             4             3             1             2             5             0             -             3             1             2             2             4             6             7             7             1             1             1             
+Los Angeles       26            3             11            5             3             4             13            8             2             -             25            4             18            8             45            20            12            5             6             9             
+New Jersey        7             32            12            29            2             2             14            4             1             20            -             9             6             27            21            16            5             14            2             7             
+Piraeus           6             5             17            8             2             2             26            3             2             4             13            -             7             24            20            14            8             22            2             5             
+Qingdao           9             3             6             7             2             4             17            12            3             38            14            9             -             10            30            10            14            5             5             1             
+Rotterdam         9             16            24            16            4             5             47            8             4             6             44            14            8             -             35            30            21            42            5             6             
+Shanghai          35            8             23            20            4             9             27            22            6             72            33            15            25            32            -             21            29            14            16            7             
+Shenzhen          30            7             27            22            7             11            35            21            6             33            29            25            8             38            20            -             28            13            8             4             
+Singapore         16            4             44            19            5             7             42            9             5             22            13            20            13            30            65            45            -             13            7             20            
+Tanger Med        6             9             15            14            3             3             14            4             3             3             10            9             2             17            13            15            8             -             3             6             
+Tianjin           8             2             5             4             1             3             13            6             1             17            8             4             10            14            22            5             13            5             -             0             
+Xiamen            17            3             17            17            2             2             16            11            2             16            16            9             4             15            12            48            19            6             1             -             
+
+Port-Level Shipment Waiting and Vessel Queue Statistics
+
+Port                       Origin Waiting TEU   Transshipment Waiting TEU   Total Waiting TEU   Vessels Waiting
+---------------------------------------------------------------------------------------------------------------
+Busan                                     402                           7                 408              0.00
+Cartagena                                 111                           0                 111              0.00
+Colombo                                   370                          66                 435              0.00
+Hamburg                                   209                           0                 209              0.00
+Ho Chi Minh City                           57                           0                  57              0.03
+Jakarta                                    39                           0                  39              0.00
+Jebel Ali                                 311                           0                 311              0.00
+Kaohsiung                                 179                         482                 661              0.00
+Laem Chabang                               53                           0                  53              0.01
+Los Angeles                               226                           0                 226              0.00
+New Jersey                                232                          92                 323              0.00
+Piraeus                                   188                         189                 376              0.00
+Qingdao                                   199                           0                 199              0.00
+Rotterdam                                 346                           0                 346              0.00
+Shanghai                                  417                         759               1,176              0.00
+Shenzhen                                  371                          57                 428              0.00
+Singapore                                 398                         579                 977              0.00
+Tanger Med                                156                          48                 204              0.00
+Tianjin                                   143                           0                 143              0.01
+Xiamen                                    235                           0                 235              0.03
+---------------------------------------------------------------------------------------------------------------
+TOTAL                                   4,644                       2,277               6,921              0.08
+
+
+
+============================================================
+Shipment Being Transported Statistics
+============================================================
+
+Average TEUs in Transition by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             31            75            126           7             15            166           140           11            188           213           79            10            149           41            47            69            71            5             12            
+Cartagena         20            -             48            46            6             14            40            20            11            69            32            33            35            45            105           64            35            45            23            22            
+Colombo           73            51            -             94            7             10            60            30            17            41            77            35            68            127           71            77            42            42            23            23            
+Hamburg           77            25            87            -             13            14            128           42            15            79            68            29            74            10            156           148           49            22            33            50            
+Ho Chi Minh City  9             16            17            27            -             11            46            10            2             47            30            15            16            39            44            47            16            21            10            11            
+Jakarta           22            10            24            38            7             -             48            6             7             62            50            35            17            69            34            44            4             17            10            15            
+Jebel Ali         107           38            57            93            14            17            -             53            17            108           73            33            60            148           67            91            48            125           25            60            
+Kaohsiung         19            14            20            67            7             13            45            -             12            133           69            29            10            72            22            15            24            31            7             5             
+Laem Chabang      19            8             20            37            2             7             38            6             -             59            27            22            13            46            35            40            8             18            19            11            
+Los Angeles       69            80            65            73            21            24            104           44            18            -             267           53            77            119           164           157           69            38            22            59            
+New Jersey        94            47            88            71            8             11            79            53            7             300           -             50            80            76            171           128           35            26            25            60            
+Piraeus           46            30            45            15            5             7             54            19            8             51            54            -             40            29            101           92            38            15            25            22            
+Qingdao           3             27            35            78            8             9             76            11            8             185           109           60            -             97            7             13            30            42            12            0             
+Rotterdam         95            62            125           5             22            27            204           52            20            90            118           28            83            -             185           230           85            26            41            72            
+Shanghai          80            74            71            172           14            22            157           11            21            243           223           124           62            251           -             18            77            101           40            4             
+Shenzhen          28            60            51            203           19            22            203           7             15            152           299           108           13            308           30            -             45            68            9             6             
+Singapore         49            51            25            81            4             8             104           20            7             150           90            50            76            132           42            63            -             49            18            28            
+Tanger Med        44            36            58            13            17            15            88            23            12            37            24            15            34            12            82            96            59            -             23            26            
+Tianjin           5             15            25            63            5             13            87            10            4             69            79            42            2             87            7             8             32            30            -             0             
+Xiamen            16            25            47            117           5             6             109           7             7             103           147           57            6             133           22            13            39            43            1             -             
+
+Completed TEUs by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             18            79            66            11            18            59            329           17            207           39            55            41            72            205           160           135           38            44            46            
+Cartagena         0             -             36            57            4             7             27            2             3             43            107           41            0             29            35            23            17            62            0             2             
+Colombo           44            24            -             104           13            13            178           50            24            9             53            52            0             112           93            162           172           52            17            34            
+Hamburg           27            32            87            -             2             6             143           27            6             15            93            98            0             168           75            103           39            81            13            18            
+Ho Chi Minh City  5             7             12            18            -             28            54            14            28            10            7             11            0             29            45            84            61            16            4             12            
+Jakarta           14            11            32            31            20            -             48            9             19            21            19            28            0             34            39            81            43            9             7             9             
+Jebel Ali         66            15            206           112           33            31            -             67            32            23            44            57            0             135           72            132           101           130           13            40            
+Kaohsiung         126           5             24            28            7             8             20            -             17            120           12            27            19            34            59            43            36            9             30            13            
+Laem Chabang      6             11            18            29            11            25            44            11            -             6             14            24            0             31            34            57            45            14            11            8             
+Los Angeles       135           42            23            22            12            14            16            61            5             -             88            23            87            46            193           140           48            12            23            31            
+New Jersey        11            195           78            107           7             5             63            21            6             103           -             78            0             56            88            63            26            49            1             21            
+Piraeus           14            20            69            55            5             12            121           25            7             8             75            -             0             76            65            90            46            69            10            30            
+Qingdao           45            15            45            35            16            11            24            36            17            190           23            25            -             56            124           56            71            24            31            2             
+Rotterdam         31            80            137           92            7             19            200           34            5             17            170           100           0             -             83            165           61            132           9             39            
+Shanghai          84            26            91            143           39            29            82            88            39            169           96            87            0             132           -             141           231           51            35            45            
+Shenzhen          129           36            77            154           55            35            124           87            42            53            173           76            18            212           93            -             194           53            29            13            
+Singapore         34            37            102           79            41            92            192           55            47            66            56            46            0             97            141           226           -             48            10            60            
+Tanger Med        20            61            66            71            5             14            96            17            4             6             44            85            0             69            43            81            70            -             7             16            
+Tianjin           42            7             32            37            10            15            23            29            6             81            20            28            21            50            72            37            71            18            -             2             
+Xiamen            61            13            64            50            13            9             50            54            18            32            34            44            6             73            42            203           113           27            3             -             
+
+
+============================================================
+Service Route Capacity and Utilization Statistics
+============================================================
+Route     Name                                Avg Capacity TEU     Avg Carried TEU    Utilization
+-------------------------------------------------------------------------------------------------
+S1        Asia-Europe-NorthEurope                      135,262               7,957          5.88%
+S2        Intra-EastAsia                                13,058                 678          5.19%
+S3        Mekong-Regional-Feeder                         4,851                 175          3.62%
+S4        Transpacific-South                            50,471               1,830          3.63%
+S5        Asia-US-East                                 115,034               2,880          2.50%
+S6        Transatlantic-Caribbean                       38,278                 965          2.52%
+S7        IndianOcean-Gulf-EastMed                      38,386               1,219          3.18%
+S8        Indonesia-Regional-Feeder                      1,539                  59          3.82%
+S9        Transpacific-North                            62,963                 595          0.95%
+-------------------------------------------------------------------------------------------------
+TOTAL                                                  459,842              16,359          3.56%
+
+
+============================================================
+Vessel Statistics
+============================================================
+Metric                                            Average Count
+---------------------------------------------------------------
+Average vessels sailing                                   38.89
+Average vessels waiting for berth at port                  0.08
+Average vessels being served at berth                      2.03
+---------------------------------------------------------------
+TOTAL average active/port vessels                         41.00
+
+
+Period Result Output: Period 3 (Days 11-15)
+Output Simulation Day: 15
+Simulation Running Time: 00:07:32
+
+Simulation Progress: Day 20 / 360
+Simulation Clock Time: 0001-06-10 00:00:00
+
+
+============================================================
+Shipment Waiting for Loading Statistics
+============================================================
+
+TEUs by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             3             21            18            2             3             31            75            1             41            23            15            18            24            49            27            19            11            11            10            
+Cartagena         1             -             5             8             0             1             5             1             1             3             26            8             2             11            6             6             6             10            1             2             
+Colombo           15            5             -             20            5             9             50            10            10            8             10            19            10            33            43            33            40            16            3             10            
+Hamburg           6             9             15            -             2             3             23            4             2             6             21            16            4             30            19            18            9             25            2             4             
+Ho Chi Minh City  1             1             4             3             -             3             6             1             3             3             1             1             1             4             8             6             11            1             0             2             
+Jakarta           1             0             3             1             1             -             4             0             1             3             2             2             1             2             5             6             3             1             0             1             
+Jebel Ali         12            3             48            20            6             9             -             8             5             10            12            16            9             27            21            26            25            24            2             11            
+Kaohsiung         27            1             4             6             2             2             7             -             3             46            9             4             11            9             20            6             8             5             10            2             
+Laem Chabang      2             1             4             3             1             3             6             0             -             3             1             2             2             3             6             7             9             1             1             1             
+Los Angeles       23            3             10            5             2             4             14            9             2             -             26            4             19            9             46            21            12            5             6             9             
+New Jersey        7             34            14            26            2             2             12            6             1             23            -             10            8             29            23            20            5             13            2             7             
+Piraeus           6             5             16            9             2             1             26            3             2             4             15            -             6             26            19            14            7             25            2             6             
+Qingdao           8             2             6             6             2             3             16            12            3             38            14            9             -             10            27            8             12            5             4             1             
+Rotterdam         9             15            24            17            4             6             43            7             4             7             42            14            8             -             33            26            18            36            4             7             
+Shanghai          31            9             28            24            6             11            36            21            7             67            39            19            25            42            -             24            40            17            15            8             
+Shenzhen          31            7             30            28            9             12            50            20            8             34            29            28            7             48            21            -             34            17            8             4             
+Singapore         14            4             35            18            4             6             52            8             5             21            12            18            12            29            57            38            -             11            5             18            
+Tanger Med        6             10            15            15            3             3             15            3             3             3             11            9             3             25            13            15            7             -             2             5             
+Tianjin           7             2             5             4             1             2             13            5             1             15            7             4             9             12            20            5             12            4             -             1             
+Xiamen            16            3             16            16            2             2             17            11            2             17            15            9             4             15            13            48            19            7             1             -             
+
+Port-Level Shipment Waiting and Vessel Queue Statistics
+
+Port                       Origin Waiting TEU   Transshipment Waiting TEU   Total Waiting TEU   Vessels Waiting
+---------------------------------------------------------------------------------------------------------------
+Busan                                     403                           7                 410              0.00
+Cartagena                                 103                           0                 103              0.00
+Colombo                                   350                          80                 430              0.00
+Hamburg                                   217                           0                 217              0.00
+Ho Chi Minh City                           60                           0                  60              0.03
+Jakarta                                    39                           0                  39              0.00
+Jebel Ali                                 294                           0                 294              0.00
+Kaohsiung                                 184                         464                 648              0.00
+Laem Chabang                               56                           0                  56              0.01
+Los Angeles                               229                           0                 229              0.00
+New Jersey                                244                          89                 333              0.00
+Piraeus                                   195                         204                 399              0.00
+Qingdao                                   186                           0                 186              0.00
+Rotterdam                                 322                           0                 322              0.00
+Shanghai                                  470                         826               1,295              0.00
+Shenzhen                                  426                          69                 495              0.00
+Singapore                                 367                         598                 965              0.00
+Tanger Med                                167                          49                 216              0.00
+Tianjin                                   129                           0                 129              0.01
+Xiamen                                    232                           0                 232              0.03
+---------------------------------------------------------------------------------------------------------------
+TOTAL                                   4,673                       2,385               7,058              0.08
+
+
+
+============================================================
+Shipment Being Transported Statistics
+============================================================
+
+Average TEUs in Transition by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             31            72            126           6             13            169           124           10            192           218           77            8             150           36            51            61            72            4             11            
+Cartagena         21            -             47            46            5             13            41            21            11            67            32            37            37            47            104           66            37            43            24            22            
+Colombo           74            48            -             91            8             12            61            34            17            43            77            37            66            130           90            90            39            45            22            27            
+Hamburg           75            28            82            -             13            14            122           42            14            81            70            29            69            7             159           154           46            21            31            51            
+Ho Chi Minh City  9             15            20            28            -             10            45            9             2             46            30            14            16            39            49            48            15            20            10            11            
+Jakarta           21            9             25            36            7             -             45            5             7             61            52            35            16            70            41            50            4             18            9             16            
+Jebel Ali         102           34            64            95            15            18            -             51            15            105           73            35            60            143           75            97            53            126           24            61            
+Kaohsiung         19            15            18            66            7             12            45            -             12            135           72            28            10            73            21            16            22            32            8             5             
+Laem Chabang      19            8             21            35            2             7             37            6             -             59            26            21            13            44            39            44            9             19            17            11            
+Los Angeles       77            75            68            72            21            23            110           42            19            -             268           52            77            118           162           157           68            39            23            57            
+New Jersey        96            40            81            76            9             12            80            52            7             296           -             51            82            78            173           131           33            24            26            60            
+Piraeus           47            27            42            15            5             8             50            19            8             50            51            -             42            31            105           92            34            22            24            24            
+Qingdao           3             27            31            77            8             9             79            12            8             189           115           62            -             97            8             15            28            43            11            0             
+Rotterdam         95            62            124           4             22            27            210           54            21            90            122           27            83            -             200           240           86            27            42            73            
+Shanghai          82            71            66            165           12            20            152           11            19            241           226           117           66            246           -             15            62            102           43            5             
+Shenzhen          28            60            49            192           15            19            195           7             13            154           295           112           11            293           29            -             34            69            8             7             
+Singapore         52            48            33            84            4             7             90            19            6             147           90            54            70            134           68            74            -             51            20            36            
+Tanger Med        44            33            60            9             17            15            85            24            13            38            25            15            34            9             90            101           54            -             23            28            
+Tianjin           4             15            24            60            4             11            88            9             4             71            82            42            1             87            8             10            30            31            -             0             
+Xiamen            18            25            44            118           5             6             109           7             7             101           150           58            7             134           23            14            35            44            1             -             
+
+Completed TEUs by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             23            117           66            18            24            164           438           21            306           89            99            69            72            301           160           135           38            44            61            
+Cartagena         0             -             36            72            7             14            27            3             7             43            156           45            0             49            79            23            17            76            0             5             
+Colombo           44            44            -             104           25            36            304           50            48            30            83            104           35            112           207           162           215           52            17            43            
+Hamburg           27            35            116           -             7             15            163           27            10            28            141           125           30            168           134           103           44            133           13            31            
+Ho Chi Minh City  5             13            29            18            -             41            71            14            32            34            14            20            9             29            86            84            108           16            4             17            
+Jakarta           14            15            56            31            25            -             74            9             22            52            33            50            11            34            84            81            56            9             7             16            
+Jebel Ali         66            26            347           112           34            31            -             67            33            86            70            84            31            135           109           132           101           130           13            54            
+Kaohsiung         126           7             30            28            13            16            44            -             21            220           20            44            38            34            94            43            36            9             30            20            
+Laem Chabang      6             12            37            29            13            32            64            11            -             36            25            36            5             31            62            57            92            14            11            17            
+Los Angeles       135           52            33            22            16            23            39            80            11            -             159           43            95            46            272           140           48            12            28            55            
+New Jersey        11            210           106           158           10            9             67            29            9             128           -             100           5             111           147           63            33            65            1             28            
+Piraeus           14            32            90            55            8             16            154           25            11            28            102           -             13            76            118           90            52            69            10            37            
+Qingdao           55            25            61            35            21            16            79            58            21            269           44            67            -             56            176           56            71            24            31            3             
+Rotterdam         31            82            157           92            17            31            241           34            12            46            281           125           27            -             159           165           79            211           9             58            
+Shanghai          84            41            155           143           49            50            196           131           57            356           176           170           56            132           -             141           231           51            35            63            
+Shenzhen          129           44            146           154           67            64            289           116           55            174           268           155           37            212           136           -             194           53            29            21            
+Singapore         34            50            187           79            52            117           289           55            50            164           84            96            64            97            277           226           -             48            10            80            
+Tanger Med        20            65            81            71            14            22            114           17            10            21            76            105           12            69            85            81            78            -             7             25            
+Tianjin           42            12            42            37            14            22            88            40            8             105           28            56            38            50            124           37            71            18            -             2             
+Xiamen            61            17            95            50            15            12            136           74            21            117           65            86            15            73            70            304           113           27            3             -             
+
+
+============================================================
+Service Route Capacity and Utilization Statistics
+============================================================
+Route     Name                                Avg Capacity TEU     Avg Carried TEU    Utilization
+-------------------------------------------------------------------------------------------------
+S1        Asia-Europe-NorthEurope                      135,730               7,985          5.88%
+S2        Intra-EastAsia                                12,933                 655          5.06%
+S3        Mekong-Regional-Feeder                         4,835                 178          3.68%
+S4        Transpacific-South                            50,388               1,761          3.50%
+S5        Asia-US-East                                 114,806               2,882          2.51%
+S6        Transatlantic-Caribbean                       38,181                 955          2.50%
+S7        IndianOcean-Gulf-EastMed                      38,395               1,200          3.13%
+S8        Indonesia-Regional-Feeder                      1,539                  64          4.15%
+S9        Transpacific-North                            63,187                 617          0.98%
+-------------------------------------------------------------------------------------------------
+TOTAL                                                  459,994              16,297          3.54%
+
+
+============================================================
+Vessel Statistics
+============================================================
+Metric                                            Average Count
+---------------------------------------------------------------
+Average vessels sailing                                   38.88
+Average vessels waiting for berth at port                  0.08
+Average vessels being served at berth                      2.04
+---------------------------------------------------------------
+TOTAL average active/port vessels                         41.00
+
+
+Period Result Output: Period 4 (Days 16-20)
+Output Simulation Day: 20
+Simulation Running Time: 00:07:51
+
+Simulation Progress: Day 25 / 360
+Simulation Clock Time: 0001-06-15 00:00:00
+
+
+============================================================
+Shipment Waiting for Loading Statistics
+============================================================
+
+TEUs by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             3             19            16            2             4             29            68            1             42            23            14            18            23            46            26            20            10            10            10            
+Cartagena         1             -             5             9             0             1             5             1             1             3             26            7             2             13            6             6             6             10            1             2             
+Colombo           15            5             -             23            6             8             56            9             9             8             13            21            10            33            43            35            38            16            4             10            
+Hamburg           7             8             17            -             2             3             26            4             2             7             20            20            5             32            23            23            10            27            2             5             
+Ho Chi Minh City  1             1             4             3             -             4             6             1             4             3             1             1             1             4             7             5             11            1             1             2             
+Jakarta           1             0             4             1             1             -             4             1             1             3             2             2             1             3             6             5             3             1             0             1             
+Jebel Ali         14            3             48            23            6             8             -             7             4             11            12            15            9             32            21            25            27            26            2             10            
+Kaohsiung         25            1             4             7             2             2             8             -             3             39            9             5             10            9             19            8             8             5             9             3             
+Laem Chabang      2             1             4             3             1             3             7             1             -             3             2             2             2             4             7             6             10            1             1             1             
+Los Angeles       23            3             10            4             3             4             16            10            3             -             28            4             19            10            53            25            12            4             5             13            
+New Jersey        7             35            12            26            2             2             12            5             1             22            -             10            7             27            22            18            5             13            2             6             
+Piraeus           6             5             15            9             2             1             24            3             2             4             16            -             5             25            18            14            7             23            2             6             
+Qingdao           9             3             7             7             2             3             17            12            3             43            16            9             -             12            26            8             12            4             4             1             
+Rotterdam         11            14            28            18            5             6             46            7             4             9             41            16            9             -             37            30            18            37            4             10            
+Shanghai          28            8             25            23            5             10            32            20            7             64            36            17            23            38            -             23            36            14            15            10            
+Shenzhen          32            7             32            27            9             11            49            21            7             36            30            27            7             46            25            -             34            17            7             4             
+Singapore         14            3             38            20            5             6             48            8             5             23            14            21            12            32            55            37            -             13            5             18            
+Tanger Med        6             9             17            14            3             4             18            3             4             5             10            13            4             22            18            16            9             -             3             6             
+Tianjin           6             1             5             5             2             2             13            5             1             16            7             4             8             14            19            5             12            5             -             1             
+Xiamen            17            3             17            18            2             3             17            12            3             19            18            11            4             17            13            53            20            8             1             -             
+
+Port-Level Shipment Waiting and Vessel Queue Statistics
+
+Port                       Origin Waiting TEU   Transshipment Waiting TEU   Total Waiting TEU   Vessels Waiting
+---------------------------------------------------------------------------------------------------------------
+Busan                                     385                           6                 391              0.00
+Cartagena                                 106                           0                 106              0.00
+Colombo                                   363                          89                 452              0.00
+Hamburg                                   244                           0                 244              0.00
+Ho Chi Minh City                           59                           0                  59              0.03
+Jakarta                                    40                           0                  40              0.00
+Jebel Ali                                 305                           0                 305              0.00
+Kaohsiung                                 176                         452                 628              0.00
+Laem Chabang                               58                           0                  58              0.01
+Los Angeles                               250                           0                 250              0.00
+New Jersey                                233                          98                 331              0.00
+Piraeus                                   186                         205                 390              0.00
+Qingdao                                   197                           0                 197              0.00
+Rotterdam                                 349                           0                 349              0.00
+Shanghai                                  435                         775               1,209              0.00
+Shenzhen                                  430                          65                 495              0.00
+Singapore                                 378                         580                 959              0.00
+Tanger Med                                183                          73                 256              0.00
+Tianjin                                   130                           0                 130              0.01
+Xiamen                                    255                           0                 255              0.02
+---------------------------------------------------------------------------------------------------------------
+TOTAL                                   4,762                       2,344               7,106              0.08
+
+
+
+============================================================
+Shipment Being Transported Statistics
+============================================================
+
+Average TEUs in Transition by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             32            72            132           6             14            168           124           8             186           218           77            10            155           40            54            61            72            4             12            
+Cartagena         22            -             47            45            5             12            43            21            11            66            33            40            37            47            98            65            40            42            24            23            
+Colombo           73            48            -             92            8             11            55            33            14            44            75            37            64            131           88            95            38            46            22            31            
+Hamburg           73            32            78            -             12            14            119           40            13            81            73            27            67            9             152           153           45            21            29            51            
+Ho Chi Minh City  9             15            22            30            -             10            48            9             2             46            29            15            15            40            47            49            15            19            9             12            
+Jakarta           21            8             26            34            6             -             45            6             7             59            52            34            16            69            41            52            4             19            9             16            
+Jebel Ali         99            31            57            97            16            20            -             48            16            101           71            35            60            142           80            99            48            117           22            62            
+Kaohsiung         17            15            17            66            6             12            44            -             12            142           74            27            10            75            24            16            23            32            9             5             
+Laem Chabang      18            8             22            35            2             7             39            5             -             58            24            21            14            42            40            45            9             19            16            10            
+Los Angeles       82            73            69            72            21            23            114           40            18            -             260           50            80            117           154           144           69            39            23            56            
+New Jersey        95            39            81            72            9             12            83            51            7             302           -             52            84            79            173           135           33            25            26            62            
+Piraeus           47            27            41            17            6             8             50            20            8             49            52            -             44            37            102           90            32            22            23            27            
+Qingdao           4             27            29            77            8             10            79            12            8             185           117           60            -             98            9             14            30            41            11            0             
+Rotterdam         95            62            118           4             21            26            211           53            21            88            124           23            82            -             196           233           84            24            41            72            
+Shanghai          74            72            66            168           13            22            154           10            20            243           229           111           68            254           -             17            72            99            44            5             
+Shenzhen          25            62            50            192           16            18            194           5             13            152           284           114           11            290           29            -             42            71            8             7             
+Singapore         52            46            28            84            4             7             93            18            7             142           87            51            68            131           67            73            -             47            20            42            
+Tanger Med        45            33            60            13            16            15            84            24            13            37            24            12            33            15            88            101           51            -             23            29            
+Tianjin           3             15            24            60            4             10            85            8             4             69            83            39            2             90            9             10            31            31            -             0             
+Xiamen            16            26            42            118           5             6             105           6             7             97            146           54            7             134           23            12            35            42            1             -             
+
+Completed TEUs by Demand Matrix
+------------------------------------------------------------
+Origin Dest       Busan         Cartagena     Colombo       Hamburg       Ho Chi Minh CityJakarta       Jebel Ali     Kaohsiung     Laem Chabang  Los Angeles   New Jersey    Piraeus       Qingdao       Rotterdam     Shanghai      Shenzhen      Singapore     Tanger Med    Tianjin       Xiamen        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Busan             -             23            117           96            18            24            164           438           21            411           144           99            112           110           389           221           172           72            63            61            
+Cartagena         4             -             51            93            7             14            27            9             7             43            156           45            12            72            79            49            17            99            7             5             
+Colombo           69            44            -             153           32            47            304           80            54            30            103           104           65            200           256           250           215           87            21            43            
+Hamburg           41            54            141           -             12            16            163           41            15            28            141           125           43            254           169           171           44            133           19            31            
+Ho Chi Minh City  9             13            29            25            -             47            71            16            37            34            16            20            13            37            100           101           126           29            10            17            
+Jakarta           21            15            56            47            33            -             74            11            27            52            43            50            14            67            106           125           77            18            10            16            
+Jebel Ali         87            35            401           154           48            48            -             94            33            86            70            84            47            182           109           175           163           231           19            54            
+Kaohsiung         190           7             30            42            13            16            44            -             21            220           42            44            60            52            134           55            50            24            60            20            
+Laem Chabang      15            12            37            40            20            42            64            14            -             36            26            36            9             49            79            85            124           23            18            17            
+Los Angeles       172           52            33            33            16            23            39            84            11            -             173           43            146           64            319           253           87            19            43            55            
+New Jersey        42            277           126           224           10            12            67            44            9             128           -             100           37            165           169           108           33            90            10            28            
+Piraeus           29            42            121           80            9             19            154           29            12            28            102           -             23            139           146           143           52            162           15            37            
+Qingdao           75            25            61            58            21            16            79            58            21            380           70            67            -             86            224           77            95            50            41            3             
+Rotterdam         45            125           236           130           21            32            241           54            16            46            281           125           49            -             193           273           79            211           17            58            
+Shanghai          189           41            155           198           49            50            196           144           57            356           212           170           148           242           -             193           338           114           99            63            
+Shenzhen          195           44            146           255           67            64            289           116           55            174           322           155           52            342           174           -             296           87            44            21            
+Singapore         60            50            187           124           71            133           289           71            65            164           111           96            80            178           364           325           -             81            22            80            
+Tanger Med        22            81            123           97            19            25            114           25            13            21            76            105           19            133           105           123           78            -             8             25            
+Tianjin           50            12            42            56            14            22            88            40            8             146           53            56            50            73            164           52            96            32            -             2             
+Xiamen            102           17            95            88            15            12            136           74            21            117           116           86            29            110           101           304           153           53            4             -             
+
+
+============================================================
+Service Route Capacity and Utilization Statistics
+============================================================
+Route     Name                                Avg Capacity TEU     Avg Carried TEU    Utilization
+-------------------------------------------------------------------------------------------------
+S1        Asia-Europe-NorthEurope                      135,719               7,934          5.85%
+S2        Intra-EastAsia                                12,969                 713          5.50%
+S3        Mekong-Regional-Feeder                         4,831                 170          3.52%
+S4        Transpacific-South                            50,436               1,757          3.48%
+S5        Asia-US-East                                 114,783               2,868          2.50%
+S6        Transatlantic-Caribbean                       38,254                 938          2.45%
+S7        IndianOcean-Gulf-EastMed                      38,517               1,190          3.09%
+S8        Indonesia-Regional-Feeder                      1,531                  62          4.02%
+S9        Transpacific-North                            63,172                 611          0.97%
+-------------------------------------------------------------------------------------------------
+TOTAL                                                  460,213              16,242          3.53%
+
+
+============================================================
+Vessel Statistics
+============================================================
+Metric                                            Average Count
+---------------------------------------------------------------
+Average vessels sailing                                   38.90
+Average vessels waiting for berth at port                  0.08
+Average vessels being served at berth                      2.02
+---------------------------------------------------------------
+TOTAL average active/port vessels                         41.00
+
+
+Period Result Output: Period 5 (Days 21-25)
+Output Simulation Day: 25
+Simulation Running Time: 00:08:08
+
